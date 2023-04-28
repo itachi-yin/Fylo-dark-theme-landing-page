@@ -1,0 +1,8 @@
+.article-container{
+    color: white;
+    /* border: 1px solid white; */
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(10rem,1fr));
+}

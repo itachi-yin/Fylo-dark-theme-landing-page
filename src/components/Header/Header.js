@@ -6,7 +6,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="header-container p-[5rem]">
+    <header className="header-container p-[5rem]">
       <div className="headerDiv1 banner-logo">
         <img src={bannerLogo} alt="" className="inline-block p-16" />
       </div>
@@ -22,7 +22,7 @@ function Header() {
         <button className="text-4xl border py-5 px-20 rounded-full bg-transparent hover:bg-cyan-300  transition-all duration-400 ease-in-out">
         Get Started</button>
       </div>
-    </div>
+    </header>
   );
 }
 

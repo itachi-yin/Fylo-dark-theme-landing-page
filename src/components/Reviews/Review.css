@@ -1,0 +1,55 @@
+.review-container{
+    
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: white;
+    /* border: 1px solid white; */
+    width: 90vw;
+    margin: 0 auto;
+    grid-gap: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(10rem,1fr));
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.rev-box{
+    /* border: 1px solid lime; */
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+/* quote */
+
+
+.quote{
+    top: 65px;
+    left: -10px;
+    z-index: -1;
+}
+
+
+
+
+
+.rev-people{
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(3,minmax(5rem,1fr));
+    width: 50%;
+    text-align: start;
+}
+
+.rev-people div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* border: 1px solid white; */
+    width: 100%;
+    text-align: start;
+    grid-column: span 2;
+}
