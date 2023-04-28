@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Features from './components/Features/Features';
 import Article from './components/Article/Article';
 import Review from './components/Reviews/Review';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Features></Features>
     <Article></Article>
     <Review></Review>
+    <Footer></Footer>
     </div>
   );
 }
