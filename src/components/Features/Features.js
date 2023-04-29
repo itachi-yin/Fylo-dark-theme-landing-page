@@ -9,7 +9,8 @@ import accessAnywhereLogo from '../assets/icon-access-anywhere.svg';
 
 function Features() {
   return (
-    <div className='features-container'>
+    <div className='features-full-width w-[100vw] bg-col3'>
+    <div className='features-container '>
         <div className="f-box f-box1 text-white">
             <img src={accessAnywhereLogo} alt="" className='inline-block w-40 mb-10'/>
             <h2 className='text-4xl font-semibold mb-7'>Access Your Files Anywhere</h2>
@@ -30,6 +31,7 @@ function Features() {
             <h2 className='text-4xl font-semibold mb-7'>Store Any Type Of File</h2>
             <p className='text-2xl font-light text-slate-300'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Nulla minima quod voluptate quis  accusantium aliquid <br /> aspernatur numquam, soluta explicabo esse?</p>
         </div>
+    </div>
     </div>
   )
 }

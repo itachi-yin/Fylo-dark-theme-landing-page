@@ -8,6 +8,9 @@ import articleImg from '../assets/illustration-stay-productive.png';
 
 function Article() {
   return (
+    <div className="article-full-width w-[100vw] bg-col3">
+
+    
     <article className='article-container py-44'>
         <div className='article-banner flex justify-end pr-9'>
             <img src={articleImg} alt="" className='inline-block w-[65rem]'/>
@@ -21,6 +24,7 @@ function Article() {
             </button>
         </div>
     </article>
+    </div>
   )
 }
 

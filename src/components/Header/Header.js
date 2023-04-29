@@ -1,12 +1,13 @@
 import React from "react";
 // banner logo
 import bannerLogo from "../assets/illustration-intro.png";
+import {ReactComponent as Logo} from '../assets/bg-curvy-desktop.svg'
 // Header Css
 import "./Header.css";
 
 function Header() {
   return (
-    <header className="header-container p-[5rem]">
+    <header className="header-container p-[5rem] bg-col2 relative">
       <div className="headerDiv1 banner-logo">
         <img src={bannerLogo} alt="" className="inline-block p-16" />
       </div>

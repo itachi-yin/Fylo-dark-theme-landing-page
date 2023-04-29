@@ -3,7 +3,7 @@ import './FooterEmailBox.css'
 
 function FooterEmailBox() {
   return (
-    <div className='emailBox flex flex-col justify-center items-center'>
+    <div className='emailBox flex flex-col justify-center items-center bg-col1'>
         <div className="emailBox-heading">
             <h1  className='text-4xl font-semibold mb-7'>Get Early Access Today</h1>
         </div>

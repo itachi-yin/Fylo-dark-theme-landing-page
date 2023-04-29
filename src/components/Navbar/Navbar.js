@@ -3,7 +3,8 @@ import logo from'../assets/logo.svg';
 
 function Navbar() {
   return (
-  <div className="navbar-container flex justify-between items-center w-[90%] m-auto pt-14">
+  <div className="navbar-full w-[100vw] bg-col2">
+  <div className="navbar-container flex justify-between items-center w-[90%] m-auto pt-14 ">
     <div className="navbar-logo">
       <img src={logo} alt=""/>
     </div>
@@ -12,6 +13,7 @@ function Navbar() {
       <a href="#" className="p-2 text-3xl ml-20 border-b-[0.1rem] border-transparent hover:border-b-[0.1rem] hover:border-white transition-all ease-in-out duration-200  text-slate-400 hover:text-white">Team</a>
       <a href="#" className="p-2 text-3xl ml-20 border-b-[0.1rem] border-transparent  hover:border-b-[0.1rem] hover:border-white transition-all ease-in-out duration-200  text-slate-400 hover:text-white">Sign In</a>
     </div>
+  </div>
   </div>
   );
 }
