@@ -7,12 +7,15 @@ import iLogo from '../assets/instagram.png'
 import contactLogo from '../assets/icon-phone.svg'
 import locationLogo from '../assets/icon-location.svg'
 import gmailLogo from '../assets/icon-email.svg'
+// Footer Email Box
+import FooterEmailBox from './FooterEmailBox'
 
 
 function Footer() {
   return (
     
-    <footer className='footer-container text-white pt-[30rem] pb-36'>
+    <footer className='footer-container text-white pt-[30rem] pb-36 relative'>
+        <FooterEmailBox/>
         <div className="fylo-logo">
             <img src={fylo} alt="" />
         </div>

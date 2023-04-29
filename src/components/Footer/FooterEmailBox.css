@@ -1,0 +1,18 @@
+.emailBox{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid cyan;
+    padding: 3rem 8rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.emailBox-email input{
+    outline: none;
+    border: none;
+    color: black;
+    
+}
